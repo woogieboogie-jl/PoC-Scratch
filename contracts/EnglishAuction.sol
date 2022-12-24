@@ -28,7 +28,7 @@ contract EnglishAuction{
         highestBid = _bid;
         highestBidder = msg.sender;
 
-        emit BidPlaced(highestBidder, highestBid);
+        emit BidPlaced(msg.sender, _bid);
     }
 
     function endAuction() public {
