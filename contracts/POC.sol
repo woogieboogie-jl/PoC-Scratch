@@ -1,10 +1,4 @@
-/* 
-Q1.Epoch Naming?
-Q2.Prefix-type naming?
-Q3.Why not just mint everything to DecipherDAO and let the DAO distribute / interact?
-Q4.Allowance has no meaning
-*/
-
+pragma solidity ^0.8.0; 
 
 interface IERC20 {
     function totalSupply() external view returns (uint);

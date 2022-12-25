@@ -1,6 +1,5 @@
 /*
 Q1. Don't we need a keepers contract to automatically keep our functions operational?
-
 */
 
 pragma solidity ^0.8.0;
